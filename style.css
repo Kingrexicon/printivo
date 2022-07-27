@@ -13,8 +13,9 @@
     background-size: 400px auto;
 }
 
-#nav {
-    /* background-color: rgb(247,246,244) ; */
+.card-body{
+    box-shadow: 0 2px 5px 0.3px rgba(27, 26, 26, 0.586);
+    
 }
 
 a {
@@ -74,13 +75,15 @@ li a small {
     position: sticky;
     top: 0;
     z-index: 3;
-
+    box-shadow: 0 0 1px 0.3px rgba(27, 26, 26, 0.586);
     width: 100%;
     scroll-margin-top: 70px;
 }
 
 #cardim {
     min-height: 150px;
+    box-shadow: 0 0 1px 0.3px rgba(27, 26, 26, 0.586);
+
     /* background-size: cover; */
     background-repeat: no-repeat;
 }
@@ -88,8 +91,9 @@ li a small {
   transition: ease-in-out;
   transform: scale(1.1);
    
-
 }
+
+
 
 @media all and (max-width:767px) {
     #sun {
@@ -109,7 +113,9 @@ li a small {
        width: 80% !important;
    }
 
-
+#cardim{
+    height: 250px;
+}
   
 }
 
@@ -117,11 +123,15 @@ li a small {
     #div{
         background-image: none;
     }
+   #teccu{
+    
 
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    
+}
 
-    /* #cardim {
-        min-height: 300px;
-    } */
 }
 
 #eee{
