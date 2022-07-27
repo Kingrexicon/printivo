@@ -1,0 +1,136 @@
+* {
+    /* border: solid blue 1px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#div{
+    background-image: url(/images/Card3_n9kqin.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    background-size: 400px auto;
+}
+
+#nav {
+    /* background-color: rgb(247,246,244) ; */
+}
+
+a {
+    text-decoration: none;
+}
+
+#naved{
+    z-index: 4;
+    border: solid 1px green;
+    position: fixed;
+    top: 0;
+}
+
+li a small {
+    font-weight: 800 !important;
+    /* min-width: 1000px !important; */
+    font-size: 80%;
+    /* border: 1px solid gray; */
+}
+
+::placeholder :nth-child(1) {
+    font-weight: 700;
+    padding-right: 30px;
+    color: rgb(176, 184, 194);
+    font-family: sans-serif;
+}
+::placeholder :nth-child(2) {
+    font-weight: 300;
+    padding-right: 30px;
+    color: rgb(176, 184, 194);
+    font-family: sans-serif;
+}
+
+
+.rounded-pill {
+    border: 1px rgba(0, 0, 0, 0.458) solid;
+}
+
+@keyframes drop {
+    0% {}
+
+    50% {
+        transition: ease-in;
+        background-color: rgb(247, 247, 242);
+
+    }
+
+
+}
+
+#nave {
+    animation-name: drop;
+    animation-iteration-count: 1;
+
+    animation-duration: 5;
+    animation-fill-mode: forwards;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+
+    width: 100%;
+    scroll-margin-top: 70px;
+}
+
+#cardim {
+    min-height: 150px;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+#cardim:hover {
+  transition: ease-in-out;
+  transform: scale(1.1);
+   
+
+}
+
+@media all and (max-width:767px) {
+    #sun {
+        display: none;
+    }
+
+   #need{
+       display: none;
+   }
+   #naved{
+    z-index: 4;
+    border: solid 1px green;
+    position: relative;
+    top: 120px;
+   }
+   #eee{
+       width: 80% !important;
+   }
+
+
+  
+}
+
+@media all and (max-width:700px) {
+    #div{
+        background-image: none;
+    }
+
+
+    /* #cardim {
+        min-height: 300px;
+    } */
+}
+
+#eee{
+    border: none;
+}
+
+
+
+#for{
+    color: rgb(35, 60, 93);
+    text-decoration: underline solid 1px rgb(35, 60, 93);
+}
